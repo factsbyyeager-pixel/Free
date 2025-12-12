@@ -1,25 +1,25 @@
-# +++ Modified By [telegram username: @Codeflix_Bots
+# +++ Modified By [telegram username: @Dub_Anime_ZZ
 import os
 from os import environ
 import logging
 from logging.handlers import RotatingFileHandler
 
 # Recommended
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8525981762:AAFbQKqwtANRt6XtwDtkabkeiCYPCxK4hXQ")
+APP_ID = int(os.environ.get("APP_ID", "23264133"))
+API_HASH = os.environ.get("API_HASH", "945e5b76ce8550bebbeeaf5599e7ce58")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "6497757690"))
-PORT = os.environ.get("PORT", "8080")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6883111123"))
+PORT = os.environ.get("PORT", "5356")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://e55791917_db_user:RzXaeGE3AagxvADd@cluster0.ryscv19.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "link")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()] # dont change anything 
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Codeflix_Bots</b>")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "<b>{mention},\n\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {title} ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.\n\‣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Dub_Anime_ZZ</b>")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 # Default
